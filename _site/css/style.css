@@ -143,6 +143,10 @@ a:hover, a:active, a:focus {
   line-height: 1em;
 }
 
+#topsection .navbar-default {
+  background: transparent;
+}
+
 #topsection .postscript {
   padding-bottom: 3em;
 }
@@ -172,7 +176,7 @@ a:hover, a:active, a:focus {
     background-color: rgba(22,34,57,0.35);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
