@@ -145,11 +145,12 @@ a:hover, a:active, a:focus {
 
 #topsection .navbar-default {
   background: rgba(0, 0, 0, 0);
+  background: transparent !important;
 }
 
 @media screen and (max-width: 768px) {
   #topsection .navbar-default {
-    background: rgba(0, 0, 0, 0) !important;
+    background: transparent !important;
   }
 }
 
