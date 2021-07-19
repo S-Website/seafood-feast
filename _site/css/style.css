@@ -144,7 +144,7 @@ a:hover, a:active, a:focus {
 }
 
 #topsection .navbar-default {
-  background: transparent;
+  background: rgba(0,0,0,0);
 }
 
 #topsection .postscript {
