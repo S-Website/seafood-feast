@@ -143,17 +143,6 @@ a:hover, a:active, a:focus {
   line-height: 1em;
 }
 
-.header-text.navbar-default {
-  background: rgba(0, 0, 0, 0);
-  background: transparent !important;
-}
-
-@media screen and (max-width: 768px) {
-  .header-text.navbar-default {
-    background: transparent !important;
-  }
-}
-
 #topsection .postscript {
   padding-bottom: 3em;
 }
@@ -753,6 +742,8 @@ footer h1 {
 
 }
 
-
+.row.navbar-default {
+  background: rgba(0, 0, 0, 0);
+}
 
 
