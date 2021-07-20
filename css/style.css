@@ -678,7 +678,9 @@ footer h1 {
   color: #ffffff;
 }
 
-
+.row.navbar-default {
+  background-color: transparent;
+}
 
 /*---------------------------------------
    Responsive Mobile         
@@ -713,6 +715,10 @@ footer h1 {
     position: relative;
     top: 0;
     left: 0;
+  }
+
+  .row.navbar-default {
+    background-color: rgba( 0, 0, 0, 0);
   }
 
 }
